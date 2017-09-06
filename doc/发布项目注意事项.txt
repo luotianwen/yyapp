@@ -1,0 +1,6 @@
+0：cmd至项目根目录，执行cordova prepare同步代码
+1：查看项目自动更新是否可用
+2：查看service.js     各个URL是否为线上的
+3：修改config.xml版本号
+4：查看安卓项目res目录  图标和闪画生成的是否完整
+
