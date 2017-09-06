@@ -1,0 +1,87 @@
+@font-size-base: 75;
+.evaSuccess {
+    font-family: "microsoft yahei";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+}
+
+.evs_header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    .save {
+        float: right;
+        margin-right: 28rem/@font-size-base;
+        color: #5F646E;
+    }
+}
+
+.evs_content {
+    position: relative;
+    top: 88rem/@font-size-base;
+    background: #FFFFFF;
+    .evs_title {
+        background-color: #06B639;
+        padding: 70rem/@font-size-base 0 74rem/@font-size-base 40rem/@font-size-base;
+        color: #fff;
+        letter-spacing: 2rem/@font-size-base;
+    }
+    .continue {
+        .title {
+            padding: 0 130rem/@font-size-base;
+            background-color: #ededed;
+            .vux-divider {
+                font-size: 24rem/@font-size-base !important;
+                color: #999999 !important;
+            }
+        }
+    }
+    .eva_list{
+        .list_item{
+            position: relative;
+            margin-left: 22rem/@font-size-base;
+            border-bottom: 1px solid #e0e0e0;
+            .img{
+                float: left;
+                width: 130rem/@font-size-base;
+                height: 130rem/@font-size-base;
+                padding:22rem/@font-size-base 0;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .shop_name{
+                float: left;
+                width: 50%;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                line-height: 30rem/@font-size-base;
+                margin: 58rem/@font-size-base 54rem/@font-size-base 58rem/@font-size-base 22rem/@font-size-base;
+            }
+            .eva_btn{
+                position: absolute;
+                width: 130rem/@font-size-base;
+                height: 58rem/@font-size-base;
+                top: 50%;
+                margin-top: -29rem/@font-size-base;
+                right: 22rem/@font-size-base;
+                line-height: 58rem/@font-size-base;
+                text-align: center;
+                color: #06B639;
+                border: 1px solid #06B639;
+                border-radius: 3px;  
+                &:active {
+                    background-color: #06B639;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}

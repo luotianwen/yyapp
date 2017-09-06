@@ -1,0 +1,116 @@
+@font-size-base: 75;
+.refundDetail {
+    font-family: "microsoft yahei";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ededed;
+    font-size: 24rem/@font-size-base;
+}
+
+.rfdl_header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    .amend {
+        display: inline-block;
+        width: 38rem/@font-size-base;
+        height: 36rem/@font-size-base;
+        position: absolute;
+        right: 113rem/@font-size-base;
+        background: url(../image/goods/menu_shopping_cart.png) no-repeat;
+        background-size: 100%;
+        top: 50%;
+        margin-top: -18rem/@font-size-base;
+        font-size: 28rem/@font-size-base;
+    }
+    &.a_brfore {
+        .vux-header-right {
+            &:before {
+                content: "";
+                position: absolute;
+                display: block;
+                width: 10rem/@font-size-base;
+                height: 10rem/@font-size-base;
+                border-radius: 6rem/@font-size-base;
+                background-clip: padding-box;
+                background-color: #f74c31;
+                right: -2rem/@font-size-base;
+                top: 0;
+            }
+        }
+    }
+}
+
+.rfdl_content {
+    height: auto;
+    position: relative;
+    top: 106rem/@font-size-base;
+    background-color: #fff;
+    .refund_amount {
+        margin: 0 22rem/@font-size-base;
+        .raitem {
+            position: relative;
+            height: 88rem/@font-size-base;
+            line-height: 88rem/@font-size-base;
+            span {
+                font-weight: 600;
+                position: absolute;
+                right: 0;
+                display: inline-block;
+                float: right;
+                font-size: 20rem/@font-size-base;
+                color: #3d4245;
+                i {
+                    font-size: 28rem/@font-size-base;
+                }
+            }
+            &.ra_item1 {
+                &:after {
+                    content: " ";
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    height: 1px;
+                    border-bottom: 1px solid #D9D9D9;
+                    color: #D9D9D9;
+                    -webkit-transform-origin: 0 100%;
+                    transform-origin: 0 100%;
+                    -webkit-transform: scaleY(0.5);
+                    transform: scaleY(0.5);
+                }
+                span {
+                    color: #FF5B28;
+                }
+            }
+        }
+    }
+    .time{
+        border-top: 18rem/@font-size-base solid #ededed;
+        padding: 0 22rem/@font-size-base;
+        .time_item1{
+            font-size: 24rem/@font-size-base;
+            color: #3d4245;
+            margin:30rem/@font-size-base 0;
+        }
+        .time_item2{
+            font-size: 24rem/@font-size-base;
+            color: #3d4245;
+            padding-bottom:30rem/@font-size-base;
+            line-height: 40rem/@font-size-base;
+            p{
+                height: 80rem/@font-size-base;
+                float: left;
+            }
+            span{
+                color: #06B639;
+                i{
+                    color:#999999;
+                }
+            }
+        }
+    }
+}

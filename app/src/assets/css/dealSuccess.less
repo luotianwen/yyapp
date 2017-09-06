@@ -1,0 +1,91 @@
+@font-size-base: 75;
+.dealSuccess {
+  font-family: "microsoft yahei";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+}
+
+.ds_header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  .amend {
+    display: inline-block;
+    width: 38rem/@font-size-base;
+    height: 36rem/@font-size-base;
+    position: absolute;
+    right: 113rem/@font-size-base;
+    background: url(../image/goods/menu_shopping_cart.png) no-repeat;
+    background-size: 100%;
+    top: 50%;
+    margin-top: -18rem/@font-size-base;
+    font-size: 28rem/@font-size-base;
+  }
+  &.a_brfore {
+    .vux-header-right {
+      &:before {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 10rem/@font-size-base;
+        height: 10rem/@font-size-base;
+        border-radius: 6rem/@font-size-base;
+        background-clip: padding-box;
+        background-color: #f74c31;
+        right: -2rem/@font-size-base;
+        top: 0;
+      }
+    }
+  }
+}
+.ds_content{
+  position: relative;
+  top: 88rem/@font-size-base;
+  background: #FFFFFF;
+  .ds_title{
+    background-color: #06B639;
+    padding: 70rem/@font-size-base 0 74rem/@font-size-base 40rem/@font-size-base;
+    color: #fff;
+    letter-spacing: 2rem/@font-size-base;
+  }
+  .deal_msg{
+    padding: 0 24rem/@font-size-base;
+    p{
+      padding:30rem/@font-size-base 0 40rem/@font-size-base;
+      font-size: 24rem/@font-size-base;
+      color: #3D4245;
+      font-weight: 500;
+      i{
+        color: #06B639;
+      }
+    }
+    .function_btn{
+      span{
+        display: inline-block;
+        width: 158rem/@font-size-base;
+        height: 58rem/@font-size-base;
+        line-height: 58rem/@font-size-base;
+        text-align: center;
+        border-radius: 3px;
+        margin-bottom: 30rem/@font-size-base;
+        &.btn_1{
+          margin-left: 170rem/@font-size-base;
+          color: #3D4245;
+          border: 1px solid #999999;
+        }
+        &.btn_2{
+          margin-left: 44rem/@font-size-base;
+          color: #06B639;
+          border: 1px solid #06B639;
+        }
+        &:active {
+          background-color: #e0e0e0;
+        }
+      }
+    }
+  }
+}

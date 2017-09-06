@@ -1,0 +1,88 @@
+@font-size-base: 75;
+.schedule {
+    font-family: "microsoft yahei";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ededed;
+    font-size: 24rem/@font-size-base;
+}
+.schedule_header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    .amend {
+        display: inline-block;
+        width: 38rem/@font-size-base;
+        height: 36rem/@font-size-base;
+        position: absolute;
+        right: 113rem/@font-size-base;
+        background: url(../image/goods/menu_shopping_cart.png) no-repeat;
+        background-size: 100%;
+        top: 50%;
+        margin-top: -18rem/@font-size-base;
+        font-size: 28rem/@font-size-base;
+    }
+    &.a_brfore {
+        .vux-header-right {
+            &:before {
+                content: "";
+                position: absolute;
+                display: block;
+                width: 10rem/@font-size-base;
+                height: 10rem/@font-size-base;
+                border-radius: 6rem/@font-size-base;
+                background-clip: padding-box;
+                background-color: #f74c31;
+                right: -2rem/@font-size-base;
+                top: 0;
+            }
+        }
+    }
+}
+.schedule_content{
+    height: auto;
+    position: relative;
+    top: 106rem/@font-size-base;
+    background-color: #fff;
+    .detail{
+        font-weight: 600;
+        padding:30rem/@font-size-base 22rem/@font-size-base;
+        font-size: 28rem/@font-size-base;
+        color: #3d4245;
+        p{
+            margin-bottom: 16rem/@font-size-base;
+            &.d_item{
+                position: relative;
+                margin-top: 50rem/@font-size-base;
+                i{
+                    position: absolute;
+                    left: 120rem/@font-size-base;
+                    display: inline-block;
+                    width: 14rem/@font-size-base;
+                    height: 24rem/@font-size-base;
+                    background: url(../image/goods/arrow_right.png) no-repeat;
+                    background-size: 100%;
+                    margin-left: 24rem/@font-size-base;
+                    top: 2rem/@font-size-base;
+                }
+            }
+        }
+        .hint{
+            margin-top: 34rem/@font-size-base;
+            font-size: 20rem/@font-size-base;
+            color: #999999;
+        }
+    }
+    .g-mohe{
+        border-top: 18rem/@font-size-base solid #ededed;
+    }
+    #mohe-kuaidi_new .mh-list-wrap .mh-list li.first{
+        color: #06B639;
+        .after{
+            background-color: #06B639;
+        }
+    }
+}

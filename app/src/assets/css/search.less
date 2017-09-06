@@ -1,0 +1,81 @@
+@font-size-base: 75;
+.all_search {
+    font-family: "microsoft yahei";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+  z-index:999999;
+}
+.search_input{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.history{
+    position: relative;
+    top: 44px;
+    .title{
+        font-size: 28rem/@font-size-base;
+        color: #3d4245;
+        margin-left: 22rem/@font-size-base;
+        padding: 30rem/@font-size-base 0;
+        font-weight: 500;
+        span{
+            float: right;
+            i{
+                background: url(../image/set/omit.png) no-repeat;
+                background-size: 100%;
+                display: inline-block;
+                width: 32rem/@font-size-base;
+                height: 32rem/@font-size-base;
+                margin-right: 30rem/@font-size-base;
+            }
+        }
+    }
+    ul{
+        width: 100%;
+        margin: 0 22rem/@font-size-base;
+        li{
+            float: left;
+            width: 166rem/@font-size-base;
+            padding: 0 18rem/@font-size-base;
+            height: 61rem/@font-size-base;
+            border-radius: 61rem/@font-size-base;
+            background-color: #efefef;
+            margin-right: 18rem/@font-size-base;
+            line-height: 61rem/@font-size-base;
+            text-align: center;
+            margin-bottom: 30rem/@font-size-base;
+            font-size: 24rem/@font-size-base;
+            color: #3d4245;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+        }
+    }
+}
+.weui-search-bar__label .weui-icon-search{
+    margin-top: 10rem/@font-size-base;
+}
+.weui-search-bar__label span{
+    margin-top: 10rem/@font-size-base;
+}
+.weui-search-bar__cancel-btn{
+    color: #999999 !important;
+    font-size: 28rem/@font-size-base !important;
+}
+.weui-search-bar{
+    background-color: #fff !important;
+}
+.weui-search-bar__form{
+    border-radius: 10rem/@font-size-base;
+    background-color: #fff !important;
+    overflow: hidden;
+}
+.weui-search-bar__box , .weui-search-bar__label{
+    background-color: #e8e9eb !important;
+}

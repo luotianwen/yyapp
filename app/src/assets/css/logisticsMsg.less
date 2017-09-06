@@ -1,0 +1,615 @@
+@font-size-base: 75;
+.lmsg {
+    font-family: "microsoft yahei";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    font-size: 24rem/@font-size-base;
+}
+
+.lmsg_header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    &.a_brfore {
+        .vux-header-right {
+            &:before {
+                content: "";
+                position: absolute;
+                display: block;
+                width: 10rem/@font-size-base;
+                height: 10rem/@font-size-base;
+                border-radius: 6rem/@font-size-base;
+                background-clip: padding-box;
+                background-color: #f74c31;
+                right: -2rem/@font-size-base;
+                top: 0;
+            }
+        }
+    }
+}
+
+.lmsg_content {
+    height: auto;
+    position: relative;
+    top: 88rem/@font-size-base;
+    .delivery_status {
+        padding: 30rem/@font-size-base 22rem/@font-size-base;
+        border-bottom: 18rem/@font-size-base solid #e0e0e0;
+        .shop_img {
+            float: left;
+            display: inline-block;
+            img {
+                width: 110rem/@font-size-base;
+                height: 110rem/@font-size-base;
+            }
+        }
+        .msg {
+            float: left;
+            width: 80%;
+            .state_msg {
+                font-size: 28rem/@font-size-base;
+                margin-bottom: 16rem/@font-size-base;
+                color: #161616;
+                span,
+                i {
+                    color: #06B639;
+                }
+                span {
+                    margin-left: 14rem/@font-size-base;
+                }
+            }
+            ul {
+                font-size: 24rem/@font-size-base;
+                color: #999;
+                li {
+                    margin-bottom: 10rem/@font-size-base;
+                }
+            }
+        }
+    }
+    .trace_msg {
+        margin: 0 22rem/@font-size-base;
+        border-bottom: 1px solid #e0e0e0;
+        height: 88rem/@font-size-base;
+        line-height: 88rem/@font-size-base;
+        font-size: 28rem/@font-size-base;
+        color: #161616;
+    }
+}
+
+#mohe-kuaidi_new {
+    width: 100%;
+}
+
+#mohe-kuaidi_new .mh-wrap {
+    margin: 6rem/@font-size-base 0;
+}
+
+#mohe-kuaidi_new .mh-wrap a {
+    text-decoration: none;
+}
+
+#mohe-kuaidi_new .mh-wrap a:hover {
+    text-decoration: underline;
+}
+
+#mohe-kuaidi_new .mh-form-wrap {
+    padding: 5rem/@font-size-base 15rem/@font-size-base;
+}
+
+#mohe-kuaidi_new .mh-form-wrap p {
+    margin: 10rem/@font-size-base 0;
+}
+
+#mohe-kuaidi_new .mh-form-wrap p label {
+    margin-right: 10rem/@font-size-base;
+    padding: 6rem/@font-size-base 0;
+}
+
+#mohe-kuaidi_new .mh-form-wrap p input,
+#mohe-kuaidi_new .mh-form-wrap p select {
+    width: 186rem/@font-size-base;
+    line-height: normal;
+    border: 1rem/@font-size-base solid #ccc;
+    padding: 6rem/@font-size-base;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#mohe-kuaidi_new .mh-form-wrap p button {
+    width: 80rem/@font-size-base;
+    height: 28rem/@font-size-base;
+    border: 1rem/@font-size-base solid #ccc;
+    margin-left: 10rem/@font-size-base;
+    text-align: center;
+    color: #333;
+    font-family: "Microsoft Yahei";
+    font-size: 14rem/@font-size-base;
+    cursor: pointer;
+    background: #f7f7f7;
+    background: -moz-linear-gradient(top, #f7f7f7, #ececec);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(#f7f7f7), color-stop(#ececec));
+    background: -ms-linear-gradient(top, #f7f7f7, #ececec);
+    background: linear-gradient(to bottom, #f7f7f7, #ececec);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#ececec', GradientType=0);
+}
+
+#mohe-kuaidi_new .mh-form-wrap p button:hover {
+    background: -moz-linear-gradient(top, #ececec, #f7f7f7);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(#ececec), color-stop(#f7f7f7));
+    background: -ms-linear-gradient(top, #ececec, #f7f7f7);
+    background: linear-gradient(to bottom, #ececec, #f7f7f7);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ececec', endColorstr='#f7f7f7', GradientType=0);
+}
+
+#mohe-kuaidi_new .mh-form-wrap p button:active {
+    background: -moz-linear-gradient(top, #f3f3f3, #fff);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(#f3f3f3), color-stop(#fff));
+    background: -ms-linear-gradient(top, #f3f3f3, #fff);
+    background: linear-gradient(to bottom, #f3f3f3, #fff);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f3f3f3', endColorstr='#ffffff', GradientType=0);
+}
+
+#mohe-kuaidi_new .mh-form-wrap form.mh-loading p button {
+    position: relative;
+    color: transparent;
+    pointer-events: none;
+}
+
+#mohe-kuaidi_new .mh-form-wrap form.mh-loading p button::after {
+    background: url(http://p1.qhimg.com/d/inn/1b1cc057/loading_s.gif) no-repeat center;
+    content: '';
+    display: inline-block;
+    width: 4em;
+    height: 20rem/@font-size-base;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -2em;
+    margin-top: -10rem/@font-size-base;
+}
+
+#mohe-kuaidi_new .mh-form-wrap .mh-error {
+    display: none;
+    color: #c00;
+}
+
+#mohe-kuaidi_new .mh-form-wrap .mh-error label {
+    visibility: hidden;
+}
+
+#mohe-kuaidi_new .mh-list-wrap .mh-list {
+    margin: 0 22rem/@font-size-base;
+    padding: 22rem/@font-size-base 0;
+}
+
+#mohe-kuaidi_new .mh-list-wrap .mh-list ul {
+    padding-left: 75rem/@font-size-base;
+    padding-right: 20rem/@font-size-base;
+    overflow: hidden;
+}
+
+#mohe-kuaidi_new .mh-list-wrap .mh-list li {
+    position: relative;
+    border-bottom: 1rem/@font-size-base solid #f5f5f5;
+    margin-bottom: 16rem/@font-size-base;
+    padding-bottom: 16rem/@font-size-base;
+    color: #666;
+}
+
+#mohe-kuaidi_new .mh-list-wrap .mh-list li.first {
+    color: #069cf9;
+}
+
+#mohe-kuaidi_new .mh-list-wrap .mh-list li p {
+    line-height: 40rem/@font-size-base;
+}
+
+#mohe-kuaidi_new .mh-list-wrap .mh-list li .before {
+    position: absolute;
+    left: -30rem/@font-size-base;
+    top: 40rem/@font-size-base;
+    height: 100%;
+    width: 0;
+    border-left: 2px solid #ddd;
+}
+
+#mohe-kuaidi_new .mh-list-wrap .mh-list li .after {
+    position: absolute;
+    left: -40rem/@font-size-base;
+    top: 23rem/@font-size-base;
+    width: 24rem/@font-size-base;
+    height: 24rem/@font-size-base;
+    background: #ddd;
+    border-radius: 50%;
+}
+
+#mohe-kuaidi_new .mh-list-wrap .mh-list li.first .after {
+    background: #069cf9;
+}
+
+#mohe-kuaidi_new .mh-kd-wrap {
+    position: relative;
+    border-top: 1rem/@font-size-base solid #eee;
+    padding: 15rem/@font-size-base;
+    padding-bottom: 25rem/@font-size-base;
+    background: #fafafa;
+}
+
+#mohe-kuaidi_new .mh-kd-wrap li {
+    display: none;
+}
+
+#mohe-kuaidi_new .mh-kd-wrap li.mh-selected {
+    display: block;
+}
+
+#mohe-kuaidi_new .mh-kd-wrap .mh-img-wrap {
+    float: left;
+    width: 50rem/@font-size-base;
+    height: 50rem/@font-size-base;
+    margin-right: 10rem/@font-size-base;
+    overflow: hidden;
+}
+
+#mohe-kuaidi_new .mh-kd-wrap .mh-img-wrap img {
+    width: 50rem/@font-size-base;
+}
+
+#mohe-kuaidi_new .mh-kd-wrap .mh-info-wrap {
+    font-size: 13rem/@font-size-base;
+    margin-left: 60rem/@font-size-base;
+}
+
+#mohe-kuaidi_new .mh-kd-wrap .mh-info-wrap p {
+    margin-bottom: 8rem/@font-size-base;
+}
+
+#mohe-kuaidi_new .mh-kd-wrap .mh-info-wrap .mh-info-name {
+    font-family: "Microsoft Yahei";
+    font-size: 14rem/@font-size-base;
+}
+
+#mohe-kuaidi_new .mh-kd-wrap .mh-info-wrap .mh-info-link a {
+    text-decoration: none;
+    margin-right: 10rem/@font-size-base;
+    padding: 2rem/@font-size-base 10rem/@font-size-base;
+    border: 1rem/@font-size-base solid #ccc;
+    color: #333;
+}
+
+#mohe-kuaidi_new .mh-kd-wrap .mh-info-wrap .mh-info-link a:hover {
+    background: white;
+}
+
+#mohe-kuaidi_new .mh-kd-wrap .mh-info-wrap .mh-info-link a:active {
+    background: -moz-linear-gradient(top, #f3f3f3, #fff);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(#f3f3f3), color-stop(#fff));
+    background: -ms-linear-gradient(top, #f3f3f3, #fff);
+    background: linear-gradient(to bottom, #f3f3f3, #fff);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f3f3f3', endColorstr='#ffffff', GradientType=0);
+}
+
+#mohe-kuaidi_new .mh-slogan {
+    position: absolute;
+    right: 20rem/@font-size-base;
+    bottom: 0;
+    cursor: pointer;
+}
+
+#mohe-kuaidi_new .mh-slogan-hover {
+    color: #3eaf0e;
+}
+
+#mohe-kuaidi_new .mh-slogan span {
+    vertical-align: middle;
+}
+
+#mohe-kuaidi_new .mh-qrcode-wrap {
+    position: absolute;
+    right: 0;
+    bottom: -1rem/@font-size-base;
+    width: 96rem/@font-size-base;
+    margin-right: -110rem/@font-size-base;
+    border: 1rem/@font-size-base solid #d6d6d6;
+    color: #999;
+    padding: 6rem/@font-size-base;
+    box-shadow: 0 1rem/@font-size-base 1rem/@font-size-base #efefef;
+}
+
+#mohe-kuaidi_new .mh-icon {
+    background: url(http://p9.qhimg.com/d/inn/f2e20611/kuaidi_new.png) no-repeat 0 0;
+}
+
+#mohe-kuaidi_new .mh-icon-qr {
+    background-position: 0 -17rem/@font-size-base;
+    display: inline-block;
+    *zoom: 1;
+    width: 13rem/@font-size-base;
+    height: 13rem/@font-size-base;
+    vertical-align: middle;
+    margin-left: 10rem/@font-size-base;
+}
+
+#mohe-kuaidi_new .mh-slogan-hover .mh-icon-qr {
+    background-position: 0 0;
+}
+
+#mohe-kuaidi_new .mh-icon-t {
+    position: absolute;
+    left: -9rem/@font-size-base;
+    bottom: 14rem/@font-size-base;
+    width: 10rem/@font-size-base;
+    height: 16rem/@font-size-base;
+    background-position: 0 -34rem/@font-size-base;
+    background-color: white;
+}
+
+#mohe-kuaidi_new .mh-icon-new {
+    position: absolute;
+    left: -20rem/@font-size-base;
+    top: 1.5em;
+    width: 41rem/@font-size-base;
+    height: 18rem/@font-size-base;
+    margin-left: -41rem/@font-size-base;
+    margin-top: -9rem/@font-size-base;
+    background-position: 0 -58rem/@font-size-base;
+}
+
+#mohe-kuaidi_new .mh-wrap .mb-search {
+    text-decoration: underline;
+    margin-left: 20rem/@font-size-base;
+}
+
+#mohe-kuaidi_new .mh-wrap .mb-search .mh-new {
+    display: inline-block;
+    width: 21rem/@font-size-base;
+    height: 9rem/@font-size-base;
+    margin: -1rem/@font-size-base 0 0 3rem/@font-size-base;
+    background: url(http://p0.qhimg.com/t01a3bd62f6db66463c.png) no-repeat;
+}
+
+#mohe-kuaidi_new .mh-identcode {
+    border-top: 1rem/@font-size-base solid #f5f5f5;
+    padding: 10rem/@font-size-base 15rem/@font-size-base;
+    display: none;
+}
+
+#mohe-kuaidi_new .mh-identcode .mh-img-wrap {
+    float: left;
+    width: 54rem/@font-size-base;
+    height: 54rem/@font-size-base;
+    padding: 6rem/@font-size-base;
+    border: 1rem/@font-size-base solid #ccc;
+    overflow: hidden;
+}
+
+#mohe-kuaidi_new .mh-identcode .mh-img-wrap img {
+    width: 54rem/@font-size-base;
+}
+
+#mohe-kuaidi_new .mh-identcode .mh-img-tip {
+    margin-left: 78rem/@font-size-base;
+}
+
+#mohe-kuaidi_new .mh-identcode .mh-tip-txt {
+    font-size: 13rem/@font-size-base;
+    line-height: 38rem/@font-size-base;
+    color: #666;
+}
+
+#mohe-kuaidi_new .mh-identcode .mh-btn-install {
+    text-decoration: none;
+    margin-right: 10rem/@font-size-base;
+    padding: 2rem/@font-size-base 10rem/@font-size-base;
+    border: 1rem/@font-size-base solid #ccc;
+    color: #333;
+}
+
+#mohe-kuaidi_new .mh-identcode .mh-btn-install:hover {
+    text-decoration: none;
+}
+
+#ordertrack td {
+    vertical-align: top;
+}
+
+table {
+    empty-cells: show;
+}
+
+#odlist,
+#orderstate,
+#process,
+#ordertrack,
+#orderinfo {
+    color: #333;
+}
+
+body {
+    color: #666;
+    font: 12rem/@font-size-base/150% Arial, Verdana, "宋体";
+}
+
+#mohe-kuaidi_new .mh-icon-new {
+    background-position: 0 -58rem/@font-size-base;
+    height: 18rem/@font-size-base;
+    left: -20rem/@font-size-base;
+    margin-left: -41rem/@font-size-base;
+    margin-top: -9rem/@font-size-base;
+    position: absolute;
+    top: 1.5em;
+    width: 41rem/@font-size-base;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+select,
+cite,
+em,
+i,
+b,
+strong,
+th {
+    font-size: 100%;
+    font-style: normal;
+}
+
+p,
+form,
+ol,
+ul,
+li,
+h3,
+menu {
+    list-style: outside none none;
+}
+
+.result .res-list,
+.result-d .res-d-list {
+    font-size: 13rem/@font-size-base;
+    line-height: 20rem/@font-size-base;
+}
+
+body,
+th,
+td {
+    font-family: arial;
+    color: #333;
+}
+
+
+/** reset styling **/
+
+.firebugResetStyles {
+    z-index: 2147483646 !important;
+    top: 0 !important;
+    left: 0 !important;
+    display: block !important;
+    border: 0 none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    outline: 0 !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    position: fixed !important;
+    transform: rotate(0deg) !important;
+    transform-origin: 50% 50% !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: transparent none !important;
+    pointer-events: none !important;
+    white-space: normal !important;
+}
+
+.firebugResetStyles {
+    display: none !important;
+}
+
+.firebugBlockBackgroundColor {
+    background-color: transparent !important;
+}
+
+.firebugResetStyles:before,
+.firebugResetStyles:after {
+    content: "" !important;
+}
+
+
+/**actual styling to be modified by firebug theme**/
+
+.firebugCanvas {
+    display: none !important;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.firebugLayoutBox {
+    width: auto !important;
+    position: static !important;
+}
+
+.firebugLayoutBoxOffset {
+    opacity: 0.8 !important;
+    position: fixed !important;
+}
+
+.firebugLayoutLine {
+    opacity: 0.4 !important;
+    background-color: #000000 !important;
+}
+
+.firebugLayoutLineLeft,
+.firebugLayoutLineRight {
+    width: 1rem/@font-size-base !important;
+    height: 100% !important;
+}
+
+.firebugLayoutLineTop,
+.firebugLayoutLineBottom {
+    width: 100% !important;
+    height: 1rem/@font-size-base !important;
+}
+
+.firebugLayoutLineTop {
+    margin-top: -1rem/@font-size-base !important;
+    border-top: 1rem/@font-size-base solid #999999 !important;
+}
+
+.firebugLayoutLineRight {
+    border-right: 1rem/@font-size-base solid #999999 !important;
+}
+
+.firebugLayoutLineBottom {
+    border-bottom: 1rem/@font-size-base solid #999999 !important;
+}
+
+.firebugLayoutLineLeft {
+    margin-left: -1rem/@font-size-base !important;
+    border-left: 1rem/@font-size-base solid #999999 !important;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.firebugLayoutBoxParent {
+    border-top: 0 none !important;
+    border-right: 1rem/@font-size-base dashed #E00 !important;
+    border-bottom: 1rem/@font-size-base dashed #E00 !important;
+    border-left: 0 none !important;
+    position: fixed !important;
+    width: auto !important;
+}
+
+.firebugRuler {
+    position: absolute !important;
+}
+
+.overflowRulerX>.firebugRulerV {
+    left: 0 !important;
+}
+
+.overflowRulerY>.firebugRulerH {
+    top: 0 !important;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.fbProxyElement {
+    position: fixed !important;
+    pointer-events: auto !important;
+}
