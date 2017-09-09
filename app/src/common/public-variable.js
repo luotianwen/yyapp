@@ -5,7 +5,7 @@
 export const SYSTEM_KEY = {
   version: '1.0.0',//版本号
 //export const serverPath='http://localhost:8080/sf-webapi/'
-  serverPath: 'http://192.168.1.177:7777/',//http://webapi.seebong.com/---http://192.168.1.177:7777
+  serverPath: 'http://webapi.seebong.com/',//http://webapi.seebong.com/---http://192.168.1.177:7777
   domain: 'http://m.seebong.com',//http://m.seebong.com
   wechatUrl:'http://webapi.seebong.com'//http://webapi.seebong.com
 }
