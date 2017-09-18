@@ -31,13 +31,13 @@
         </ul>
       </div>
     </div>
-    <div class="other_login" v-show="currentDevice.deviceName != 'wap'&&currentDevice.deviceName != 'chat'">
-      <!--点击后效果active-->
+   <!-- <div class="other_login" v-show="currentDevice.deviceName != 'wap'&&currentDevice.deviceName != 'chat'">
+      &lt;!&ndash;点击后效果active&ndash;&gt;
       <ul>
         <li class="wx" @click="wechatLogin"><span></span><i>微信登录</i></li>
         <li class="qq" @click="qqLogin"><span></span><i>QQ登录</i></li>
       </ul>
-    </div>
+    </div>-->
   </div>
 </template>
 <script type="text/ecmascript-6">
