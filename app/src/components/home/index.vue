@@ -142,7 +142,7 @@
             _this.bannerList = data.bannerList;
             _this.adList = data.adList;
             let today = new Date()
-            data["timeout"] = today.setMinutes(today.getMinutes() + 10); //10分钟过期
+            data["timeout"] = today.setHours(today.getHours() + 24); //10分钟过期
             _this.$setStorage('homeData', data);
           } else {
             _this.$vux.toast.show({
