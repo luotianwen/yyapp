@@ -10,7 +10,7 @@
                 <li class="ra_versions">当前版本：<i>{{version}}</i></li>
                 <li class="ra_code"><img src="../../../assets/image/set/app_img.png"/></li>
                 <li class="ra_msg1">扫描二维码</li>
-                <li class="ra_msg2">您的朋友也可以下载世峰户外客户端</li>
+                <li class="ra_msg2">您的朋友也可以下载悠氧商城客户端</li>
             </ul>
         </div>
         <popup v-model="show">

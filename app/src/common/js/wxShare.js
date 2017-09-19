@@ -16,7 +16,7 @@ export function wxShareLoad(para) {
     // config信息验证后会执行ready方法，所有接口调用都必须在config接口获得结果之后，config是一个客户端的异步操作，所以如果需要在页面加载时就调用相关接口，则须把相关接口放在ready函数中调用来确保正确执行。对于用户触发时才调用的接口，则可以直接调用，不需要放在ready函数中。
 
     WechatPlugin.$wechat.onMenuShareTimeline({
-      title:para?para.title:'世峰户外商城、户外用品专家、专业户外装备专用网站', // 分享标题
+      title:para?para.title:'悠氧商城商城、户外用品专家、专业户外装备专用网站', // 分享标题
       desc: para?para.desc:'在线销售专业户外装备', // 分享标题
       link:para?para.link:'http://www.seebong.com', // 分享链接
       imgUrl: para?para.imgUrl:'http://m.seebong.com/static/image/logo.png', // 分享图标
@@ -28,7 +28,7 @@ export function wxShareLoad(para) {
       }
     });
     WechatPlugin.$wechat.onMenuShareAppMessage({
-      title:para?para.title:'世峰户外商城、户外用品专家、专业户外装备专用网站', // 分享标题
+      title:para?para.title:'悠氧商城商城、户外用品专家、专业户外装备专用网站', // 分享标题
       desc: para?para.desc:'在线销售专业户外装备', // 分享标题
       link:para?para.link:'http://www.seebong.com', // 分享链接
       imgUrl: para?para.imgUrl:'http://m.seebong.com/static/image/logo.png', // 分享图标
@@ -44,7 +44,7 @@ export function wxShareLoad(para) {
       }
     });
     WechatPlugin.$wechat.onMenuShareQQ({
-      title:para?para.title:'世峰户外商城、户外用品专家、专业户外装备专用网站', // 分享标题
+      title:para?para.title:'悠氧商城商城、户外用品专家、专业户外装备专用网站', // 分享标题
       desc: para?para.desc:'在线销售专业户外装备', // 分享标题
       link:para?para.link:'http://www.seebong.com', // 分享链接
       imgUrl: para?para.imgUrl:'http://m.seebong.com/static/image/logo.png', // 分享图标
@@ -61,7 +61,7 @@ export function wxShareLoad(para) {
     });
 
     WechatPlugin.$wechat.onMenuShareQZone({
-      title:para?para.title:'世峰户外商城、户外用品专家、专业户外装备专用网站', // 分享标题
+      title:para?para.title:'悠氧商城商城、户外用品专家、专业户外装备专用网站', // 分享标题
       desc: para?para.desc:'在线销售专业户外装备', // 分享标题
       link:para?para.link:'http://www.seebong.com', // 分享链接
       imgUrl: para?para.imgUrl:'http://m.seebong.com/static/image/logo.png', // 分享图标

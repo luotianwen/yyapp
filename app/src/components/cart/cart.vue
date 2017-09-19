@@ -157,7 +157,7 @@
 
         this.shareUrl = 'sharecart/token=' + this.userInfo.token + '&cartid=' + cartid.substr(0, cartid.length - 1);
         this.shareTitle = this.userInfo.name + '的购物清单'
-        this.shareDesc = '这是' + this.userInfo.name + '在世峰户外的购物清单，都是精选好货，赶快来看看...'
+        this.shareDesc = '这是' + this.userInfo.name + '在悠氧商城的购物清单，都是精选好货，赶快来看看...'
         this.shareImg = this.cartInfo.cartInfo[0].wareList[0].colorPic;
 
         this.$refs.share.show();

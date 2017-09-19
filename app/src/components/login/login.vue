@@ -1,7 +1,7 @@
 <template>
   <div class="login">
     <div class="l_header">
-      <x-header :left-options="{showBack:true}">世峰户外登录</x-header>
+      <x-header :left-options="{showBack:true}">悠氧商城登录</x-header>
     </div>
     <div class="l_content">
       <group>

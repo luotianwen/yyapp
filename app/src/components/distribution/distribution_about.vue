@@ -12,7 +12,7 @@
             <h1>一、分销要求</h1>
             <div class="section-wrapper">
                 <i class="num">1、</i>
-                <p class="content">注册成为世峰户外商城会员即为分销商（每个手机号为一个单位）；</p>
+                <p class="content">注册成为悠氧商城商城会员即为分销商（每个手机号为一个单位）；</p>
             </div>
             <div class="section-wrapper">
                 <i class="num">2、</i>
@@ -45,7 +45,7 @@
             <h2>会员A收益方式</h2>
             <div class="section-wrapper">
                 <i class="num">1、</i>
-                <p class="content">用户在世峰户外商城成功注册即成为会员A；</p>
+                <p class="content">用户在悠氧商城商城成功注册即成为会员A；</p>
             </div>
             <div class="section-wrapper">
                 <span class="num">2、</span>
@@ -54,7 +54,7 @@
             </div>
             <div class="section-wrapper">
                 <span class="num">3、</span>
-                <p class="content">会员B在世峰户外商城消费，会员A可得相应的佣金，并且所得佣金永久有效；</p>
+                <p class="content">会员B在悠氧商城商城消费，会员A可得相应的佣金，并且所得佣金永久有效；</p>
             </div>
             <div class="img-wrapper">
                 <img class="align-center" width="255" height="192"
@@ -71,7 +71,7 @@
             </div>
             <div class="section-wrapper">
                 <i class="num">3、</i>
-                <p class="content">好友C在世峰户外商城消费，会员B可得相应的佣金，并且所得佣金永久有效；</p>
+                <p class="content">好友C在悠氧商城商城消费，会员B可得相应的佣金，并且所得佣金永久有效；</p>
             </div>
             <img class="align-center" width="255" height="192"
                  src="../../assets/image/distribution/about_distribution_b.png">
@@ -85,7 +85,7 @@
             <h1>五、佣金提现及使用规则</h1>
             <div class="section-wrapper">
                 <i class="num">1、</i>
-                <p class="content">所得收益系统将自动充入世峰E卡，世峰E卡是世峰户外商城无门槛购物卡，卡内余额可直接抵扣货款或提现；</p>
+                <p class="content">所得收益系统将自动充入世峰E卡，世峰E卡是悠氧商城商城无门槛购物卡，卡内余额可直接抵扣货款或提现；</p>
             </div>
             <div class="section-wrapper">
                 <i class="num">2、</i>
@@ -125,7 +125,7 @@
             <h1>七、违反规则时的处理方式</h1>
             <div class="section-wrapper" style="margin-bottom: 22px">
                 <p class="content">
-                    凡发现用户违反分销规则，利用未知的系统漏洞或资金漏洞做违法乱纪引起刑事、民事等纠纷或对世峰户外商城账户及资金等安全有重大威胁，将冻结其账户及账户中的余额，另永久取消分销商资格，并保留追究法律责任的权利，以上分销规则最终解释权归世峰户外商城所有。</p>
+                    凡发现用户违反分销规则，利用未知的系统漏洞或资金漏洞做违法乱纪引起刑事、民事等纠纷或对悠氧商城商城账户及资金等安全有重大威胁，将冻结其账户及账户中的余额，另永久取消分销商资格，并保留追究法律责任的权利，以上分销规则最终解释权归悠氧商城商城所有。</p>
             </div>
         </div>
     </div>

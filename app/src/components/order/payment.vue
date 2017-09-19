@@ -23,7 +23,7 @@
 				<a class="check_btn" @click="goOrderList">查看订单</a>
 			</div>
 			<div class="pm_reminder">
-				下单后，<i>给您发送链接办理退款</i>的都是骗子！世峰户外不存在系统升级，订单异常等问题，谨防假冒客服电话诈骗！
+				下单后，<i>给您发送链接办理退款</i>的都是骗子！悠氧商城不存在系统升级，订单异常等问题，谨防假冒客服电话诈骗！
 			</div>
 			<div class="guess_like">
 				<div class="title"><divider>猜你喜欢</divider></div>
