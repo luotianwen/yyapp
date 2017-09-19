@@ -35,19 +35,19 @@
         <!--子页面图标-->
         <div class="sf_activity">
           <div class="sf_activity_item">
-            <a href="">
+            <a @click="devIndex">
               <div class="sf_item_icon"><img src="../../assets/image/home/coupons_img_1.png"/></div>
-              <div class="sf_item_lable">世峰领券</div>
+              <div class="sf_item_lable">领券</div>
             </a>
           </div>
           <div class="sf_activity_item">
             <a @click="goFlashSale">
               <div class="sf_item_icon"><img src="../../assets/image/home/seckill_img_1.png"/></div>
-              <div class="sf_item_lable">世峰特卖</div>
+              <div class="sf_item_lable">特卖</div>
             </a>
           </div>
           <div class="sf_activity_item">
-            <a href="" >
+            <a @click="devIndex" >
               <div class="sf_item_icon"><img src="../../assets/image/home/knowledge_img_1.png"/></div>
               <div class="sf_item_lable">户外知识</div>
             </a>
@@ -107,6 +107,13 @@
 
         this.isShow = false;
       },
+      devIndex(){
+        this.$vux.toast.show({
+          text: '正在开发中',
+          type: 'text'
+        });
+      },
+
       updateShow(){
         this.isShow = true;
       },

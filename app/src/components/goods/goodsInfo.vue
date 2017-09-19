@@ -9,7 +9,7 @@
                         <img :src="imgPath">
                     </swiper-item>
                 </swiper>
-                <div id="flash-sale-detail">
+               <!-- <div id="flash-sale-detail">
                     <span class="rmb">¥</span>
                     <span class="sale-price">599.00</span>
                     <div class="old-price-wrapper">
@@ -19,7 +19,7 @@
                     <div class="count-down-wrapper">
                         <countdown class="count-down" :endTime="0"></countdown>
                     </div>
-                </div>
+                </div>-->
                 <!--商品描述-->
                 <div class="goods-desc-wrapper">
                     <div class="goods-title-wrapper">
@@ -188,12 +188,12 @@
 <style lang="less" rel="stylesheet/less">
     @import "../../assets/css/base.less";
 
-    #flash-sale-detail {
-        display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
-        display: -moz-box; /* 老版本语法: Firefox (buggy) */
-        display: -ms-flexbox; /* 混合版本语法: IE 10 */
-        display: -webkit-flex; /* 新版本语法: Chrome 21+ */
-        display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+   /* #flash-sale-detail {
+        display: -webkit-box; !* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. *!
+        display: -moz-box; !* 老版本语法: Firefox (buggy) *!
+        display: -ms-flexbox; !* 混合版本语法: IE 10 *!
+        display: -webkit-flex; !* 新版本语法: Chrome 21+ *!
+        display: flex; !* 新版本语法: Opera 12.1, Firefox 22+ *!
         width: 100%;
         height: 88rem/@font-size-base;
         background-color: #06b670;
@@ -238,5 +238,5 @@
                 margin-right: 24rem/@font-size-base;
             }
         }
-    }
+    }*/
 </style>
