@@ -2,7 +2,7 @@
   <transition enter-active-class="animated fadeInRight" leave-active-class="animated fadeOutRight">
     <div class="pay">
       <div class="p_header">
-        <x-header :left-options="{showBack:type==2?true:false}">世峰户外收银台</x-header>
+        <x-header :left-options="{showBack:type==2?true:false}">悠氧商城收银台</x-header>
       </div>
       <div class="p_content">
         <div class="pc_title">
@@ -14,9 +14,9 @@
           <cell title="微信支付" is-link is-link @click.native="weChatPay">
             <img slot="icon" width="20" style="display:block;margin-right:5px;" src="../../assets/image/cart/wx.png">
           </cell>
-          <cell title="支付宝支付" is-link is-link :link="payData.aliPayUrl">
+         <!-- <cell title="支付宝支付" is-link is-link :link="payData.aliPayUrl">
             <img slot="icon" width="20" style="display:block;margin-right:5px;" src="../../assets/image/cart/zfb.png">
-          </cell>
+          </cell>-->
         </group>
       </div>
     </div>

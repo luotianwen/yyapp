@@ -39,7 +39,7 @@
       </group>
 
       <group>
-        <cell title="关于世峰户外" is-link link="/member/regarding"></cell>
+        <cell title="关于悠氧商城" is-link link="/member/regarding"></cell>
         <cell title="意见反馈" is-link link="/member/feedback"></cell>
       </group>
       <button class="exit_btn" v-on:click="showPlugin" v-show="currentDevice.deviceName != 'chat'">退出当前账户</button>

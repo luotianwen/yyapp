@@ -19,7 +19,7 @@
             <div :class="{'default_class':!isAgree,'selected_class':isAgree}" @click="isAgree=!isAgree">
               <i class="opt_img"></i>
               <span class="opt_msg">
-                已阅读并同意<i><router-link to="/protocol">《世峰户外商城用户注册协议》</router-link></i>
+                已阅读并同意<i><router-link to="/protocol">《悠氧商城商城用户注册协议》</router-link></i>
 							</span>
             </div>
           </div>

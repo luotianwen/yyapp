@@ -10,12 +10,12 @@
 		<div class="bsp_title">
 			<div class="bt">
 				<div class="bt-item_1"><img src="../../../../platforms/android/build/intermediates/res/merged/debug/drawable-port-hdpi/screen.png" alt="" /></div>
-				<div class="bt-item_2"><p>世峰户外官方旗舰店</p><span>品牌旗舰店</span></div>
+				<div class="bt-item_2"><p>悠氧商城官方旗舰店</p><span>品牌旗舰店</span></div>
 				<!--关注之后active-->
 				<div class="attention_btn">
 					关注
 				</div>
-			</div>			
+			</div>
 		</div>
 		<div class="bsp_choice">
 			<ul>

@@ -1,7 +1,7 @@
 {
   "name": "sfapp",
   "version": "1.0.0",
-  "description": "世峰户外",
+  "description": "悠氧商城",
   "keywords": [
     "ios",
     "webpack",
@@ -11,7 +11,7 @@
     "mobile",
     "app",
     "vuex",
-    "世峰户外"
+    "悠氧商城"
   ],
   "author": "shifeng",
   "private": true,
