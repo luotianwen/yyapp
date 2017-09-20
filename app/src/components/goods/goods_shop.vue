@@ -4,7 +4,7 @@
       <img :src="shopLogo">
       <div class="shop-desc">
         <span class="name">{{shopName}}</span>
-        <p class="desc" >阿瑞纳诞生于1973年，是以将泳装本身作为武器的水上运动为起源的现代运动休闲品牌，再争夺再争夺再争夺天下无贼</p>
+        <p class="desc" ></p>
         <div class="expand-hide-wrapper">
           <div class="empty"></div>
           <div class="expand-hide" >

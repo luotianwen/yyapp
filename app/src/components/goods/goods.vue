@@ -59,7 +59,7 @@
 				<span class="txt">客服</span>
 			</div>
 			<div class="shopping" @click="shopping">
-				<div class="img-wrapper">
+				 <div class="img-wrapper">
 					<img src="../../assets/image/goods/footer_shopping.png">
 				</div>
 				<span class="txt" @click="goShop">店铺</span>
@@ -191,11 +191,7 @@
 			},
 			//菜单更多
 			clickMore() {
-				this.$vux.toast.show({
-					text: 'click menu more icon',
-					type: 'text',
-					position: 'middle'
-				});
+        this.$refs.share.show();
 			},
 			//联系客服
 			contact() {
@@ -258,9 +254,17 @@
 
 					this.$store.dispatch('addToCart', good);
 				} else if(this.goodInfo.goodInfo.state != 1) {
-					alert('下架');
+          this.$vux.toast.show({
+            text: '下架',
+            type: 'text',
+            position: 'middle'
+          });
 				} else if(this.goodInfo.stocks <= 0) {
-					alert('缺货');
+          this.$vux.toast.show({
+            text: '缺货',
+            type: 'text',
+            position: 'middle'
+          });
 				}
 			},
 			updateIndex(index) {
