@@ -57,8 +57,9 @@ export function isLogin() {
           i++;
         }
       }
+      alert(href);
       var url = "https://open.weixin.qq.com/connect/oauth2/authorize?" +
-        "appid=wx2e1deda16bcced1d&redirect_uri=" + encodeURIComponent($system_key.wechatUrl) + "&" +
+        "appid=wxf577b8debcedeb58&redirect_uri=" + encodeURIComponent($system_key.wechatUrl) + "&" +
         "response_type=code&scope=snsapi_userinfo&state=" + encodeURIComponent(href) + "#wechat_redirect";
       location.href = url;
     }

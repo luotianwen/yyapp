@@ -18,8 +18,8 @@ export function wxShareLoad(para) {
     WechatPlugin.$wechat.onMenuShareTimeline({
       title:para?para.title:'悠氧商城商城、户外用品专家、专业户外装备专用网站', // 分享标题
       desc: para?para.desc:'在线销售专业户外装备', // 分享标题
-      link:para?para.link:'http://www.seebong.com', // 分享链接
-      imgUrl: para?para.imgUrl:'http://m.seebong.com/static/image/logo.png', // 分享图标
+      link:para?para.link:'http://yoyound.com', // 分享链接
+      imgUrl: para?para.imgUrl:'http://yoyound.com/static/image/logo.png', // 分享图标
       success: function () {
 
       },
@@ -46,8 +46,8 @@ export function wxShareLoad(para) {
     WechatPlugin.$wechat.onMenuShareQQ({
       title:para?para.title:'悠氧商城商城、户外用品专家、专业户外装备专用网站', // 分享标题
       desc: para?para.desc:'在线销售专业户外装备', // 分享标题
-      link:para?para.link:'http://www.seebong.com', // 分享链接
-      imgUrl: para?para.imgUrl:'http://m.seebong.com/static/image/logo.png', // 分享图标
+      link:para?para.link:'http://yoyound.com', // 分享链接
+      imgUrl: para?para.imgUrl:'http://yoyound.com/static/image/logo.png', // 分享图标
       success: function () {
       },
       cancel: function () {
@@ -63,8 +63,8 @@ export function wxShareLoad(para) {
     WechatPlugin.$wechat.onMenuShareQZone({
       title:para?para.title:'悠氧商城商城、户外用品专家、专业户外装备专用网站', // 分享标题
       desc: para?para.desc:'在线销售专业户外装备', // 分享标题
-      link:para?para.link:'http://www.seebong.com', // 分享链接
-      imgUrl: para?para.imgUrl:'http://m.seebong.com/static/image/logo.png', // 分享图标
+      link:para?para.link:'http://yoyound.com', // 分享链接
+      imgUrl: para?para.imgUrl:'http://yoyound.com/static/image/logo.png', // 分享图标
       success: function () {
       },
       cancel: function () {

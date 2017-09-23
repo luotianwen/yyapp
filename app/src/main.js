@@ -59,7 +59,7 @@ if(device=='chat'){
           i++;
         }
       }
-      var url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx2e1deda16bcced1d&redirect_uri=" + encodeURIComponent(InterFaceUrlPlugin.$system_key.wechatUrl) + "&response_type=code&scope=snsapi_userinfo&state=" + encodeURIComponent(href) + "#wechat_redirect";
+      var url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxf577b8debcedeb58&redirect_uri=" + encodeURIComponent(InterFaceUrlPlugin.$system_key.wechatUrl) + "&response_type=code&scope=snsapi_userinfo&state=" + encodeURIComponent(href) + "#wechat_redirect";
       location.href = url;
     }
   }
@@ -96,7 +96,7 @@ function detectOS() {
   return "wap";//其他所有未识别类型都默认为wap
 }
 function getwxticket() {
-  console.log(location.href.split('#')[0])
+
   PostPlugin.$post(InterFaceUrlPlugin.$interface_url.wechat.getShareSignature, {url: location.href.split('#')[0]}, function (data, success) {
     if (success) {
       console.log(data)
@@ -120,6 +120,7 @@ function getwxticket() {
 }
 
 function wxLogin(code) {//微信浏览器登录回调
+  alert(url_search.code);
   PostPlugin.$post(InterFaceUrlPlugin.$interface_url.login.wxlogin, {code: code}, function (data, success) {
     if (success) {
       let today = new Date()

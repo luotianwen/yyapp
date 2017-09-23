@@ -104,20 +104,20 @@
             </li>
           </ul>
           <div class="other-wrapper">
-            <!--优惠券-->
+            <!--优惠券
             <div class="coupon-wrapper">
               <span class="txt">优惠券</span>
               <span class="coupon-count">0张可用</span>
               <span class="used-state">未使用</span>
               <img src="../../assets/image/goods/arrow_right.png">
-            </div>
-            <!--世峰E卡-->
+            </div>-->
+            <!--世峰E卡
             <div class="sf-card-wrapper">
               <span class="txt">世峰E卡</span>
               <span class="coupon-count">0张可用</span>
               <span class="used-state">未使用</span>
               <img src="../../assets/image/goods/arrow_right.png">
-            </div>
+            </div>-->
             <!--匿名购买-->
             <div class="anonymous-wrapper">
               <span class="txt">匿名购买</span>

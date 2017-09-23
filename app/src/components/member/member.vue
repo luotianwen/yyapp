@@ -81,8 +81,8 @@
     <div class="rest_function">
       <ul>
         <li class="distributor" @click="goDistribution"><img src="../../assets/image/mine/distributor_img.png"/><i>我的分销</i></li>
-        <li class="discount_coupon"><img src="../../assets/image/mine/discount_coupon_img.png"/><i>优惠券</i></li>
-        <li class="sfcard"><img src="../../assets/image/mine/sfcard_img.png"/><i>世峰E卡</i></li>
+       <!-- <li class="discount_coupon"><img src="../../assets/image/mine/discount_coupon_img.png"/><i>优惠券</i></li>-->
+       <!-- <li class="sfcard"><img src="../../assets/image/mine/sfcard_img.png"/><i>世峰E卡</i></li>-->
         <li class="service"><img src="../../assets/image/mine/service_img.png"/><i>客服</i></li>
       </ul>
     </div>
